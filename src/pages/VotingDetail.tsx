@@ -84,7 +84,7 @@ export default function VotingDetail() {
       ) : isVotingPeriod ? (
         <p className="mb-4">Vote from the choices below</p>
       ) : (
-        <p className="mb-4">Berada di luar Periode Voting</p>
+        <p className="mb-4">Outside the Voting Period</p>
       )}
 
       <div className="flex justify-center mb-4">
